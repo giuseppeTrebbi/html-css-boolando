@@ -33,10 +33,11 @@ nav .logo {
 }
 
 main {
-    padding: 30px 150px;
+    padding: 0px 150px;
 }
 
 .first-section {
+    margin: 40px 0;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -45,15 +46,70 @@ main {
 
 .tattoo-boy {
     height: 100%;
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
 }
 
-.tattoo-boy div {
+.tattoo-boy .boy {
     background-image: url(/img/1.webp);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tattoo-boy .second-boy {
+    background-image: url(/img/4.webp);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tattoo-boy .blonde-girl {
+    background-image: url(/img/2.webp);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tattoo-boy .blonde-woman {
+    background-image: url(/img/5.webp);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tattoo-boy .afro-girl {
+    background-image: url(/img/3.webp);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tattoo-boy .skirt-girl {
+    background-image: url(/img/6.webp);
     background-size: cover;
     height: 90%;
     width: 100%;
@@ -85,14 +141,17 @@ main {
 
 .tattoo-boy strong {
     font-size: 15px;
+    display: block;
 }
 
 .red {
     color: red;
+    display: inline-block;
 }
 
 .crossed {
     text-decoration: line-through;
+    display: inline-block;
 }
 
 
