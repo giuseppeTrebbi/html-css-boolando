@@ -89,10 +89,23 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .boy:hover {
     background-image: url(/img/1b.webp);
+}
+
+.basic-pic .cuore {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
 }
 
 .basic-pic .second-boy {
@@ -105,6 +118,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .second-boy:hover {
@@ -121,6 +135,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .blonde-girl:hover {
@@ -137,6 +152,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .blonde-woman:hover {
@@ -153,6 +169,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .afro-girl:hover {
@@ -169,6 +186,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    position: relative;
 }
 
 .skirt-girl:hover {
